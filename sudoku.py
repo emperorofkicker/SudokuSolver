@@ -203,6 +203,3 @@ class Sudoku:
             unknown_cnt = self.unknown_cnt
 
         return SolutionStatus.SUCCESSFUL
-
-
-SudokuSolver().solve()
